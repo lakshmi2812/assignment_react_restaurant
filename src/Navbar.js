@@ -1,17 +1,35 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Navbar extends Component {
   render() {
-    return ( 
-    <nav className="navbar">
-      <a className="navbar-brand" href="#">React Restaurant</a>
-      <li className="nav-item active">
-        <a className="nav-link" href="#menu">Menu <span className="sr-only">(current)</span></a>
-      </li>
-      <li className="nav-item active">
-        <a className="nav-link" href="#reservation">Reservation <span className="sr-only">(current)</span></a>
-      </li>
-    </nav>);
+    return (
+      <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
+        <button
+          className="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" />
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <a className="nav-item nav-link active" href="#">
+              React Restuarant <span className="sr-only">(current)</span>
+            </a>
+            <a className="nav-item nav-link" href="#">
+              Menu
+            </a>
+            <a className="nav-item nav-link" href="#">
+              Reservation
+            </a>
+          </div>
+        </div>
+      </nav>
+    );
   }
 }
 
