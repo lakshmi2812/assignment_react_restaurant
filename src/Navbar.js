@@ -20,10 +20,10 @@ class Navbar extends Component {
             <a className="nav-item nav-link active" href="#">
               React Restuarant <span className="sr-only">(current)</span>
             </a>
-            <a className="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#menu">
               Menu
             </a>
-            <a className="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#reservation">
               Reservation
             </a>
           </div>

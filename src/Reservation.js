@@ -5,7 +5,7 @@ class Reservation extends Component{
 
     render(){
       return (
-      <div className="container">
+      <div id="reservation" className="container">
         <h3>Make A Reservation</h3>
         <form>
         <div className="form-group">
